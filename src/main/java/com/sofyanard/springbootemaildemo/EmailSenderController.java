@@ -48,7 +48,7 @@ public class EmailSenderController {
         
 
         try {
-            emailSenderService.sendEmail("sofyanard@gmail.com",
+            emailSenderService.sendEmail("xxxxx@gmail.com",
                 "Informasi Login Aplikasi",
                 emailBody);
         } catch (Exception e) {

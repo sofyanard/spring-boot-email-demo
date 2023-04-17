@@ -18,7 +18,7 @@ public class SpringBootEmailDemoApplication {
 	/*
 	@EventListener(ApplicationReadyEvent.class)
 	public void sendEmail() {
-		emailSenderService.sendEmail("sofyanard@gmail.com",
+		emailSenderService.sendEmail("xxxxx@gmail.com",
 				"This is Subject",
 				"This is Body");
 	}

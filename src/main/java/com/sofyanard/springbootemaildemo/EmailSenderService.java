@@ -24,7 +24,7 @@ public class EmailSenderService {
             MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, "utf-8");
 
             // SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
-            helper.setFrom("sofyanard@gmail.com");
+            helper.setFrom("xxxxx@gmail.com");
             helper.setTo(toEmail);
             helper.setText(body, true);
             helper.setSubject(subject);
